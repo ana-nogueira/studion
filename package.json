@@ -1,0 +1,27 @@
+{
+  "name": "studion",
+  "version": "0.0.1",
+  "description": "Homepage for Studion Event provider and services",
+  "main": "srs/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ana-nogueira/studion.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Javascript"
+  ],
+  "author": "Ana Carolinha Nogueira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ana-nogueira/studion/issues"
+  },
+  "homepage": "https://github.com/ana-nogueira/studion#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
