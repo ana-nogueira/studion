@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Roboto&display=swap');
 
 *{
     box-sizing: border-box;
@@ -7,9 +7,10 @@
 :root {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    color: #333;
+    --color-copy: #333;
     --color-primary: #ffc500;
     --default-padding: 1rem;
+
 }
 
 body{
@@ -85,21 +86,18 @@ ul{
 .logo-studion__subtitle{
     font-size: .875rem;
     font-weight: 300;
-    float: right;
 }
 .copy--primary {
     color: var(--color-primary);    
 }
 
 #slider{
-    margin: 0;  
-    padding: var(--default-padding);
     background-color: #000;    
     color:#fff;
 }
 .slide{
     position: relative;
-    height: calc(100vh - 7.75rem);
+    height: calc(95vh - 7.75rem);
 }
 .slide__background-image{
     width: 100%;
@@ -130,7 +128,7 @@ ul{
 }
 .btn{
     cursor: pointer;
-    padding: 1.25rem 2.5rem;
+    padding: 1rem 2.5rem;
     border:.125rem solid #fff ;
     border-radius: 5rem;
     color: var(--color-primary);
@@ -148,6 +146,11 @@ ul{
     border-color: var(--color-primary);
     background-color: var(--color-primary);
     color: #fff;
+}
+.btn--institutional:hover{
+    color: var(--color-primary);
+    background: unset;
+    box-shadow: 0 1rem 1rem #0006;
 }
 #counter{
     background-color: var(--color-primary);
@@ -192,6 +195,57 @@ ul{
     margin-top: 1rem;
 }
 .institutional p{
+    font-family: "Roboto", sans-serif;
     font-size: 1.0625rem;
     line-height: 1.6875rem;
+    margin-bottom: 2.5rem ;
+}
+
+.quote{
+
+    background-image: url(./images/parallax.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.quote__container{
+   display: grid;
+   align-items: center;
+   justify-items: end; 
+   min-height: 100vh;
+}
+
+.quote__copy{
+    background-color:#fff;
+    padding: 5.625rem 4.375rem;
+
+
+}
+.quote__copy h6{
+    font-size: .9375rem;
+    font-weight: 400;
+    letter-spacing: .1875rem;
+    line-height: 1.4375rem;
+    max-width: 53ch;
+    text-transform: uppercase;
+    
+}
+.quote__copy h2{
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: -.1875rem;
+    margin: 1.875rem 0;
+}
+
+.quote__copy h2 span{
+    display: block;
+}
+
+
+.btn--quote{
+    color: var(--color-copy);
+    border-color: var(--color-copy);
+    background:unset;
 }
