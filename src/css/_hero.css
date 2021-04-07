@@ -33,3 +33,13 @@
   line-height: 1.875rem;
   color: var(--color-copy--alt);
 }
+
+.hero__copy__testimonials h4 {
+  font: "Montserrat";
+  font-weight: 300;
+  line-height: 0.1rem;
+  color: var(--color-primary);
+}
+.hero__copy__testimonials h2 {
+  font-size: 6rem;
+}
