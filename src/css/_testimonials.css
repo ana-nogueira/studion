@@ -1,0 +1,41 @@
+.testimonials {
+  background-color: var(--color-primary);
+}
+.testimonials__person {
+  padding: 4.5rem 16.375rem;
+  display: grid;
+  justify-items: center;
+}
+
+.testimonials__person i {
+  padding-bottom: 2.1rem;
+  padding-top: 1.5625rem;
+}
+
+.testimonials__person h2 {
+  padding-top: 2.1rem;
+  margin: 0;
+}
+.testimonials__person span {
+  display: block;
+  text-align: end;
+  font-family: "Montserrat";
+  font-size: 13px;
+}
+
+.testimonials__person p {
+  font-size: 15px;
+  font-family: "Montserrat";
+  width: 50ch;
+  text-align: center;
+}
+
+.copy h2 {
+  font-size: 84px;
+}
+.copy h3 {
+  font-size: 15px;
+  font-family: "Montserrat";
+  font-weight: 300;
+  color: var(--color-primary);
+}
