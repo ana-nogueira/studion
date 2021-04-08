@@ -1,0 +1,29 @@
+.gallery {
+  height: 67.5rem;
+  background-color: #000;
+  padding-top: 9.875rem;
+}
+.gallery__images {
+  display: grid;
+  grid-template-columns: repeat(4, 16.5625rem);
+  gap: 2rem;
+}
+.column {
+  display: grid;
+  gap: 2rem;
+}
+
+.second_column {
+  grid-template-rows: 21.5625rem;
+}
+
+.forth_column {
+  grid-template-rows: 12.1875rem;
+}
+
+.hero__gallery h3 {
+  color: var(--color-primary);
+  font-size: 15pt;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
