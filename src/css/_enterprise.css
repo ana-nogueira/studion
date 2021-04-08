@@ -1,0 +1,22 @@
+.enterprise__info {
+  padding-top: 2.625rem;
+  display: grid;
+  grid-template-columns: 29.125rem auto;
+  gap: 8.75rem;
+}
+
+.enterprise__info__container h2,
+.enterprise__info__container p {
+  margin-bottom: 3.1875rem;
+}
+
+.brands {
+  padding-bottom: 6.5rem;
+  padding-top: 4.125rem;
+  background-color: var(--color-primary);
+}
+
+.video {
+  padding-bottom: 5.6875rem;
+  padding-top: 5rem;
+}
